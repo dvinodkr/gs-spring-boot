@@ -1,9 +1,4 @@
 node {
-   environment {
-      AZURE_CRED_ID=JenkinsService
-      RES_GROUP='javaWebAppResourceGroup'
-      WEB_APP='javaWebAppSO'
-   }
    stage('init') {
       checkout scm
    }
